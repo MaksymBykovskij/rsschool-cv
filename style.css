@@ -73,3 +73,52 @@
   }
   
     /*--------------------*/
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.3px;
+}
+
+.container {
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/* ==== HEADER SECTION ==== */
+
+.header-section {
+    background: #292935;
+    padding: 30px 0px;
+}
+
+.header-menu__list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu__item:not(:last-child) {
+    margin: 0px 40px 0px 0px;
+}
+
+.header-menu__link {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all 0.4s ease 0.4s;
+}
+
+.header-menu__link:hover {
+    color: #FFC905;
+}
+
+/* ------------------------ */
