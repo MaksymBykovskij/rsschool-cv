@@ -193,3 +193,34 @@ body {
 .contact__item-link{
     color: #FFFFFF;
 }
+
+/* ==== FOOTER ==== */
+.footer {
+    background: #292935;
+    color: #FFFFFF;
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.footer-github__link {
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.4s ease 0.4s;
+}
+  
+.footer-github__link:hover {
+    color: #FFC905;
+}
+  
+.footer-rsschool__link {
+    cursor: pointer;
+}
+  
+.footer-rsschool__link img {
+    height: 29px;
+}
