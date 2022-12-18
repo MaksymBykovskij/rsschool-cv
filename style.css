@@ -113,9 +113,9 @@ body {
   
 /* ==== HEADER SECTION ==== */
 
-.header-section {
+.header-container {
     background: #292935;
-    padding: 30px 0px;
+    padding: 30px 10px;
 }
 
 .header-menu__list {
@@ -188,10 +188,6 @@ body {
     box-sizing: border-box;
 }
 
-.avatar {
-    
-}
-
 .avatar-image {
     width: 100%;
     position: relative;
@@ -214,9 +210,7 @@ body {
 .contact-title {
     margin: 0px 0px 15px 0px;
 }
-.contact__list{
 
-}
 .contact__item span {
     margin-right: 10px;
 }
@@ -227,16 +221,14 @@ body {
 /* --------------------- */
 
 /* ==== FOOTER ==== */
-.footer {
+
+.footer-container {
     background: #292935;
     color: #FFFFFF;
-}
-  
-.footer-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
+    padding: 20px 10px;
 }
 
 .footer-github__link {
