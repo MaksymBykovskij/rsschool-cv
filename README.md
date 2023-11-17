@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://github.com/MaksymBykovskij/rsschool-cv/cv
+https://maksymbykovskij.github.io/rsschool-cv/cv
